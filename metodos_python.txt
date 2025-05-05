@@ -1,0 +1,17 @@
+| *Método*              | *Descripción*                                                                 | *Ejemplo*                        |
+|-------------------------|---------------------------------------------------------------------------------|------------------------------------|
+| isdigit()             | Verifica si una cadena es un número entero positivo.                             | "123".isdigit()  → True        |
+| isnumeric()           | Verifica si una cadena es un número, incluyendo números como fracciones.        | "123".isnumeric()  → True      |
+| isdecimal()           | Verifica si una cadena contiene solo dígitos decimales.                         | "123".isdecimal()  → True      |
+| int()                 | Convierte una cadena a un número entero.                                         | int("123")  → 123              |
+| float()               | Convierte una cadena a un número de punto flotante.                              | float("123.45")  → 123.45      |
+| replace()             | Reemplaza una subcadena por otra en una cadena.                                  | "123,45".replace(",", ".")  → "123.45" |
+| strip()               | Elimina los espacios en blanco al principio y al final de una cadena.            | "  Hola  ".strip()  → "Hola"   |
+| lower()               | Convierte toda la cadena a minúsculas.                                           | "Hola".lower()  → "hola"       |
+| upper()               | Convierte toda la cadena a mayúsculas.                                           | "hola".upper()  → "HOLA"       |
+| startswith()          | Verifica si una cadena empieza con una subcadena específica.                    | "Hola Mundo".startswith("Hola")  → True |
+| endswith()            | Verifica si una cadena termina con una subcadena específica.                    | "Hola Mundo".endswith("Mundo")  → True |
+| type()                | Devuelve el tipo de un objeto.                                                   | type("Hola")  → <class 'str'>  |
+| isinstance()          | Verifica si un objeto es una instancia de un tipo específico.                   | isinstance(123, int)  → True   |
+| bool()                | Convierte un valor a su equivalente booleano (False para valores vacíos, True para otros). | bool("")  → False  |
+| try/except            | Manejo de excepciones para capturar errores al intentar convertir o usar valores incorrectos. | try: float("123.45") except ValueError: print("Error") |
