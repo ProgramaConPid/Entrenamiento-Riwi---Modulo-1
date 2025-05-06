@@ -61,8 +61,6 @@ def delete_pet():
       print("Mascota eliminada con exito!")
       break
     
-    print("No se encontró la mascota ingresada")
-
 # Funcion para mostrar mascotas registradas
 def show_pets():
   print(f"La cantidad de mascotas registradas son: {len(pets_list)} y son las siguientes")
